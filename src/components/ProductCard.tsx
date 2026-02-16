@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import { motion, useMotionTemplate, useMotionValue, useSpring, useTransform } from 'framer-motion';
+import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
 import { Plus, ArrowUpRight } from 'lucide-react';
 
 interface ProductProps {

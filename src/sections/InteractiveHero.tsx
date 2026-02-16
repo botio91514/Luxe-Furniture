@@ -74,7 +74,7 @@ declare module '@react-three/fiber' {
 const ImagePlane = () => {
     // Explicitly type the ref to match the ShaderMaterial uniforms we need to update
     const materialRef = useRef<THREE.ShaderMaterial & { uTime: number, uMouse: THREE.Vector2 }>(null);
-    const { viewport, mouse } = useThree();
+    const { viewport } = useThree();
 
     const texture = useTexture('/hero-living-room.jpg');
     texture.minFilter = THREE.LinearFilter;
